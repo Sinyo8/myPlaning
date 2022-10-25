@@ -1,0 +1,17 @@
+26 oct 2022
+proses development java
+membuat file.java di JDK - compile menjadi binary file - di jalankan di JDE - bisa menjadi file.jar 
+
+Java update selama 6 bulan sekali mulai dari java versi 9
+
+install java di linux
+    versi insatll java in comammand line
+    - $ sudo apt update && sudo apt upgrade
+    Install JRE (java runtime environment - digunakan untuk menjalankan program java yang sudah di compile di JDK)
+      - $ sudo apt install default-jre
+    Install JDK (Java Developmnet Kit - digunakan untuk mengcompile file.java)
+      - $ sudo apt install default-jdk
+    jika sudah selesai maka cek terlebih dahulu apakah JRE dan JDK sudah terinstall 
+      - Java -version (java software untuk menjalankan binary file java)
+      - Javac -version (javac software untuk mengcompile file.java)
+     
