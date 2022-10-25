@@ -14,4 +14,17 @@ install java di linux
     jika sudah selesai maka cek terlebih dahulu apakah JRE dan JDK sudah terinstall 
       - Java -version (java software untuk menjalankan binary file java)
       - Javac -version (javac software untuk mengcompile file.java)
-     
+    tambahkan path java di /etc/profile
+        - $ nano /etc/profile 
+  
+            export JAVA_HOME="/home/drn/java/JDK/jdk-17/bin"
+            export PATH=$JAVA_HOME/bin:$PATH
+            
+    lalu save dan reboot
+    install JVM (java virtual machine ) menggunakan intellij IDEA
+        download di https://www.jetbrains.com/idea/download/
+        extract file dengan perintah 
+        tar -xvf idea*****.tar.gz
+        masuk ke foldernya jalankan idea.sh dengan perintah 
+        sudo ./idea.sh
+        
