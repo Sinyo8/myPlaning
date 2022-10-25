@@ -1,0 +1,14 @@
+untuk membuat program java harus ada main function 
+public static void main
+
+contoh menampilkan hello world di layar 
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("hello world");
+    }
+}
+kemudian save lalu compile di JDK menggunakan perintah javac
+- javac HelloWorld.java
+- java HelloWorld
+
